@@ -3,7 +3,14 @@ guid: a0f4d3979edc4ed408d231d082c07dd0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - longitudeText: {instanceID: 0}
+  - latitudeText: {instanceID: 0}
+  - altitudeText: {instanceID: 0}
+  - storedCoordinatesText: {instanceID: 0}
+  - distanceText: {instanceID: 0}
+  - cubePrefab: {fileID: 6798831265021495187, guid: 8eb7752942643d64680d147e135571d2,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

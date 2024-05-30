@@ -9,6 +9,7 @@ public class LocationService : MonoBehaviour
     public TMP_Text altitudeText;
     public TMP_Text storedCoordinatesText;
     public TMP_Text distanceText;
+    public CubeSpawner cubeSpawner;
 
     private Vector3 storedCoordinates;
 
@@ -84,5 +85,10 @@ public class LocationService : MonoBehaviour
             float distance = Vector3.Distance(storedCoordinates, currentCoordinates) * 1000; // Distance in meters
             distanceText.text = "Distance: " + Mathf.Round(distance * 100f) / 100f + " meters";
         }
+    }
+
+    public void DrawObject()
+    {
+        cubeSpawner.SpawnCube();
     }
 }
